@@ -14,7 +14,7 @@ router.post("/", async (req, res) => {
     } catch (err) {
         res.status.apply(500).json(err);
     }
-})
+});
 
 // UPDATE
 // Admin can update the cart, user can also update it's cart also.
